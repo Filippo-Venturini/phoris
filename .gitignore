@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.xml
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+
+# Models (large binary files — download at runtime)
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build / packaging
+dist/
+*.tar.gz
+
+# Phoris runtime state
+.phoris_cache/
+
+.python-version
